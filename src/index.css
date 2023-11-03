@@ -24,6 +24,15 @@ form input {
   margin: 0.5rem;
 }
 
+input[type="range"] {
+  appearance: none;
+  border-radius: 50px;
+  width: 30%;
+  background: #fdb77e;
+  opacity: .8;
+  cursor: pointer;
+}
+
 input[type="text"] {
   background: #fdb77e;
   padding: 0.5rem;
